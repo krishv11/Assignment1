@@ -18,3 +18,11 @@ Then run the main function this is the same for each convolutional script and th
 Testing.py:
 With the saved models you can load the model you would like to test. These models can be found in the saved file or by running the other models
 Change the directory for the train generatior and test generator to the dataset used for training and that one used for testing
+
+The formatted directories can be found in the gitbhub
+
+Train - smile,
+Train_age - agem
+Train_human - human,
+Train_glasses - glasses,
+Train_hair - hair,
