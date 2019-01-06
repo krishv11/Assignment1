@@ -89,7 +89,7 @@ def run_dlib_shape(image):
     dlibout = np.reshape(np.transpose(face_shapes[:, np.argmax(face_areas)]), [68, 2])
 
     return dlibout, resized_image
-
+#used to clean dataset using the 68 landmarks
 images_dir =('D:\\Documents\\Assignment1\\Lab21\\venv\\dataset')
 image_paths = [os.path.join(images_dir, l) for l in os.listdir(images_dir)]
 target_size = None
