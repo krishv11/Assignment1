@@ -1,10 +1,10 @@
 # Assignment1
-running assingment using the lab2 instruction will allow the data to be cleaned - includes the shutil library, and os  \n
-Convo_smile running :\n
-To run this download the libraries needed as can be seen on the script:\n
-keras\n
-time\n
-matplotlib\n
+running assingment using the lab2 instruction will allow the data to be cleaned - includes the shutil library, and os 
+Convo_smile running :
+To run this download the libraries needed as can be seen on the script:
+keras
+time
+matplotlib
 sklearn
 imutils
 dlib
