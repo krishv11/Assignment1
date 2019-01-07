@@ -1,23 +1,39 @@
 # Assignment1
-running assingment using the lab2 instruction will allow the data to be cleaned - includes the shutil library, and os 
-Convo_smile running :
-To run this download the libraries needed as can be seen on the script:
-keras,
-time,
-matplotlib,
-sklearn,
-imutils,
-dlib,
-shutil,
-os,
-numpy,
-Opencv
-Run the format data function to seperate the data into the 2 classes smiles and non smile
-Then run the main function this is the same for each convolutional script and the MLP script
+First run Assignment.py
 
-Testing.py:
-With the saved models you can load the model you would like to test. These models can be found in the saved file or by running the other models
-Change the directory for the train generatior and test generator to the dataset used for training and that one used for testing
+>This code is an adapted value of lab2 and uses the libraries numpy,cv2,os,shutil,keras and dlib
+>execute this code by running it
+>This should create the directory nonface
+
+Running Convo_smile
+>install libraries numpy,cv2,shutil,keras,dlib,imutils,sklearn,matplotlib,time,pandas
+>First run format_data() making sure that image directory is set to nonface and the label file is set to the label spreadsheet
+>The train_generator and validation_generator directories should be alter to where the file is present
+>run main()
+
+
+This is the case for all binary task 
+
+smile_classification_MLP.py
+used to run all mlp models
+>change directories within the train and validation generators to contain the folder containing the classes of the problem formed by the format_data() function in the other conovloution scripts
+>run
+Running Convo_hair.py
+>>install libraries numpy,cv2,shutil,keras,dlib,imutils,sklearn,matplotlib,time,pandas
+>First run format_data() making sure that image directory is set to nonface and the label file is set to the label spreadsheet
+>remove unknown from the directory manually
+>The train_generator and validation_generator directories should be alter to where the file is present
+>run main()
+
+Running testing.py
+
+>After trainning the network the model is saved This model should be loaded in by entering the correct directories into line 24
+>The train_generator and test_generator directories should be alter to where the file is present
+
+Running augmentation.py
+>Change the image read path to the path where the image exsist
+>run
+
 
 The format data should create these directories for these classification problems :
 
